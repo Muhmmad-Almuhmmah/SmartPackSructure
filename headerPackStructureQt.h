@@ -150,7 +150,7 @@ static QByteArray PackStructureQC(const Args&... args) // At least one argument
 }
 #define QC_FILL(len)                       QByteArray().fill('0',len*2)
 #define QC_STANDARD_FILL(len)              QByteArray().fill('0',len)
------------------------------------------------------------------------
+//-----------------------------------------------------------------------
 PackStructureQC(uint8_t(0xFA),
                           uint8_t(0xC3),
                           QC_FILL(34));
